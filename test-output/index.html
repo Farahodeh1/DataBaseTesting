@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Jafer Odeh\AppData\Local\Temp\testng-eclipse-1514803126\testng-customsuite.xml</span>
+                    <span>C:\Users\Jafer Odeh\AppData\Local\Temp\testng-eclipse--824796353\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="database" class="method navigator-link" hash-for-method="DeleteQuery">DeleteQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="database" class="method navigator-link" hash-for-method="ReadTheDataInsideTheBrowser">ReadTheDataInsideTheBrowser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="database" class="method navigator-link" hash-for-method="UpdateTheData">UpdateTheData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="database" class="method navigator-link" hash-for-method="inserttotable">inserttotable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -131,6 +141,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="DeleteQuery">
+                  </a> <!-- DeleteQuery -->
+                  <span class="method-name">DeleteQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="ReadTheDataInsideTheBrowser">
                   </a> <!-- ReadTheDataInsideTheBrowser -->
                   <span class="method-name">ReadTheDataInsideTheBrowser</span>
@@ -143,12 +160,19 @@
                   <span class="method-name">UpdateTheData</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inserttotable">
+                  </a> <!-- inserttotable -->
+                  <span class="method-name">inserttotable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Jafer Odeh\AppData\Local\Temp\testng-eclipse-1514803126\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Jafer Odeh\AppData\Local\Temp\testng-eclipse--824796353\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -197,20 +221,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'UpdateTheData')
 data.setCell(0, 2, 'database')
-data.setCell(0, 3, 2065);
+data.setCell(0, 3, 1018);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'ReadTheDataInsideTheBrowser')
 data.setCell(1, 2, 'database')
-data.setCell(1, 3, 570);
+data.setCell(1, 3, 703);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'inserttotable')
+data.setCell(2, 2, 'database')
+data.setCell(2, 3, 43);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DeleteQuery')
+data.setCell(3, 2, 'database')
+data.setCell(3, 3, 10);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -242,12 +274,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <span class="method-name">inserttotable</span>
+                <span class="method-start">2862 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">UpdateTheData</span>
-                <span class="method-start">3415 ms</span>
+                <span class="method-start">2916 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ReadTheDataInsideTheBrowser</span>
-                <span class="method-start">5490 ms</span>
+                <span class="method-start">3938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteQuery</span>
+                <span class="method-start">4645 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
